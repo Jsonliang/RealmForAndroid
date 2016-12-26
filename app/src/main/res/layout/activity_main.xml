@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jsonliang.realmforandroid.ui.MainActivity">
+    <include layout="@layout/layout_toolbar" />
+
+    <Button
+        android:textSize="20sp"
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:elevation="5dp"
+        android:text="增、删"
+        android:layout_marginTop="12dp"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:textSize="20sp"
+        android:id="@+id/btn_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:elevation="5dp"
+        android:text="改、查"
+        android:textAllCaps="false" />
+
+    <Button
+        android:textSize="20sp"
+        android:id="@+id/btn_async"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:elevation="5dp"
+        android:text="异步操作"
+        android:textAllCaps="false" />
+</LinearLayout>
